@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context="com.example.mastek.blue.deep.swasthtesting.Dashboard;">
+
+
+            <LinearLayout
+                android:id="@+id/feedbackLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/icon"
+                android:elevation="7dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="1"
+                    android:contentDescription="@string/feedback"
+                    android:paddingBottom="16dp"
+                    android:paddingTop="32dp"
+                    android:src="@drawable/ic_clipboard_text_black_24dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="1"
+                    android:background="#dd26a69a"
+                    android:gravity="center"
+                    android:padding="12dp"
+                    android:text="@string/feedback"
+                    android:textAllCaps="true"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="0dp">
+
+                <FrameLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:clickable="true"
+                    android:padding="0dp">
+
+                    <ImageButton
+                        android:id="@+id/imgCredits"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:alpha="1"
+                        android:background="@drawable/icon"
+                        android:clickable="true"
+                        android:elevation="7dp"
+                        android:paddingBottom="48dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="24dp"
+                        android:src="@drawable/ic_currency_inr_black_24dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginTop="130dp"
+                        android:alpha="1"
+                        android:background="#dd26a69a"
+                        android:clickable="true"
+                        android:elevation="7dp"
+                        android:gravity="center"
+                        android:text="@string/credits_text_view"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/helpline"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:clickable="true"
+                    android:padding="0dp">
+
+                    <ImageButton
+                        android:id="@+id/barcode_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:alpha="1"
+                        android:background="@drawable/icon"
+                        android:clickable="true"
+                        android:elevation="7dp"
+                        android:paddingBottom="48dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="24dp"
+                        android:src="@drawable/ic_barcode_scan_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/barcode_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="130dp"
+                        android:alpha="1"
+                        android:background="#dd26a69a"
+                        android:clickable="true"
+                        android:elevation="7dp"
+                        android:gravity="center"
+                        android:text="@string/barcode_text_view"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="12dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="64dp">
+
+                <FrameLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:clickable="true">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:alpha="1"
+                        android:background="@drawable/icon"
+
+                        android:clickable="true"
+                        android:elevation="7dp"
+                        android:paddingBottom="48dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="24dp"
+                        android:src="@drawable/ic_account_multiple_black_24dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginTop="130dp"
+                        android:alpha="1"
+                        android:background="#dd26a69a"
+                        android:clickable="true"
+                        android:elevation="7dp"
+                        android:gravity="center"
+                        android:text="@string/family_text_view"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+
+                </FrameLayout>
+
+
+                <FrameLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:clickable="true">
+
+                    <ImageButton
+                        android:id="@+id/centers_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:alpha="1"
+                        android:background="@drawable/icon"
+                        android:clickable="true"
+                        android:elevation="7dp"
+                        android:paddingBottom="48dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="24dp"
+                        android:src="@drawable/ic_google_maps_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/centers_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="130dp"
+                        android:alpha="1"
+                        android:background="#dd26a69a"
+                        android:clickable="true"
+                        android:elevation="7dp"
+                        android:gravity="center"
+                        android:text="@string/centers_text_view"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="24dp"
+            android:background="#26A69A"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/card_no_textview"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">स्वस्थ</string>
+    <string name="title_activity_register">रजिस्टर</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="title_activity_login">लॉगिन</string>
+    <string name="title_activity_dashboard">स्वस्थ</string>
+    <string name="card_no_textview">कार्ड नंबर</string>
+    <string name="feedback_button">प्रतिक्रिया</string>
+    <string name="title_activity_barcode">बारकोड</string>
+    <string name="title_activity_feedback_summary">स्वस्थ</string>
+    <string name="action_logout">लोग आउट</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="login_button">लॉगिन</string>
+    <string name="barcode_image_view">बारकोड</string>
+    <string name="credits_text_view">क्रेडिट</string>
+    <string name="barcode_text_view">बारकोड</string>
+    <string name="family_text_view">परिवार</string>
+    <string name="centers_text_view">स्वस्थ केन्द्रों</string>
+    <string name="swasth_motto_textview">स्वस्थ</string>
+    <string name="card_no_edittext">कार्ड नंबर</string>
+    <string name="password_edittext">पासवर्ड</string>
+    <string name="username_edittext">उपनाम</string>
+    <string name="confirm_password_edittext">पासवर्ड फिर से टाइप करें</string>
+    <string name="choose_language_button">भाषा चुनें</string>
+
+    <string name="home_dashboard">
+        होमपेज
+    </string>
+    <string name="language_dashboard">
+        भाषा
+    </string>
+    <string name="tutorial_dashboard">
+        ट्यूटोरियल
+    </string>
+    <string name="about_dashboard">
+        स्वस्थ के बारे में
+    </string>
+    <string name="toast_total_credits">
+        कुल क्रेडिट :
+    </string>
+    <string name="toast_thankyou">
+प्रतिक्रिया भरने के लिए धन्यवाद !
+    </string>
+    <string name="toast_select_choice">
+        एक ऑप्शन चुनिये
+    </string>
+
+    <string name="toast_credits_after_feedback">
+        प्रतिक्रिया भरने के बाद आपके क्रेडिट:
+    </string>
+</resources>

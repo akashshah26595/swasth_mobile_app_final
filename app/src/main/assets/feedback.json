@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "question": "Kya aap behtar mahsus kar rahe hain?"
+    },
+    {
+      "question": "Aap hamari seva se kitne santusht hain?"
+    },
+    {
+      "question": "Doctor ki seva se kitne santusht hain?"
+    },
+    {
+      "question": "Nurse ki seva se kitne santusht hain?"
+    },
+    {
+      "question": "Bill ki rakam ke baare mein aapki kya rai hain?"
+    },
+    {
+      "question": "Kitna samay laga?"
+    },
+    {
+      "question": "Kya aap agli baar Swasth Dawakhane aana chahoge?"
+    },
+    {
+      "question": "Kya aap apne doston/parivaar ko Swasth Dawakhane ke baare mein bataenge?"
+    }
+  ]
+}
