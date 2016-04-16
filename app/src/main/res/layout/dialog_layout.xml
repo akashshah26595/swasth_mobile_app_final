@@ -10,14 +10,32 @@
     android:paddingTop="@dimen/activity_vertical_margin">
 
     <Spinner
+        android:layout_marginBottom="24dp"
         android:id="@+id/languageSpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
     <Button
-        android:id="@+id/okButton"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+    android:background="@drawable/button_background"
+    android:id="@+id/okButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@android:string/ok" />
+
+    <Button
+        android:background="@drawable/button_background"
+        android:id="@+id/cancelButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@android:string/ok" />
+        android:text="@string/cancel_button" />
+
+    </LinearLayout>
 
 </LinearLayout>

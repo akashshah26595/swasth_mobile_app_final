@@ -46,7 +46,7 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
     public static String name;
     public static String email;
     public static String CARD_NO = "";
-    int ICONS[] = {R.drawable.rsz_2ic_home_black_24dp, R.drawable.ic_language_16, R.drawable.rsz_ic_information_outline_black_24dp};
+    int ICONS[] = {R.drawable.rsz_2ic_home_black_24dp, R.drawable.language_final, R.drawable.rsz_ic_information_outline_black_24dp};
     String NAME = "";
     int PROFILE = R.drawable.ic_account_circle_black_24dp;
     LinearLayout btnFeedback;

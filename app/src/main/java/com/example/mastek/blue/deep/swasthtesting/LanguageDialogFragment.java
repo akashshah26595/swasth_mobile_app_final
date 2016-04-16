@@ -52,6 +52,14 @@ public class LanguageDialogFragment extends DialogFragment implements View.OnCli
 //      load shared preferences
         languageSpinner.setSelection(selected);
 
+        Button cancelButton = (Button) view.findViewById(R.id.cancelButton);
+        cancelButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dismiss();
+            }
+        });
+
         Button okButton = (Button) view.findViewById(R.id.okButton);
         okButton.setOnClickListener(this);
         return builder.create();

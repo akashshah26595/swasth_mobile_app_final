@@ -22,7 +22,7 @@
     <string name="username_edittext">Username</string>
     <string name="confirm_password_edittext">Confirm Password</string>
     <string name="choose_language_button">Choose Language</string>
-
+    <string name="cancel_button">Cancel</string>
     <string name="home_dashboard">Home</string>
     <string name="language_dashboard">Language</string>
     <string name="tutorial_dashboard">Tutorial</string>
